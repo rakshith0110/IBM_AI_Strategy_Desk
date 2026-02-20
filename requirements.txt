@@ -1,0 +1,19 @@
+# Core Dependencies
+streamlit>=1.31.0
+python-dotenv>=1.0.0
+
+# LangChain & LangGraph
+langchain>=0.1.0
+langchain-core>=0.1.0
+langchain-community>=0.0.20
+langgraph>=0.0.20
+langchain-groq>=0.0.1
+
+# Tools & Utilities
+duckduckgo-search>=4.0.0
+# Database (sqlite3 is built-in to Python, no installation needed)
+
+
+# Optional: For graph visualization
+# pyppeteer>=1.0.2
+# mermaid>=0.1.0
