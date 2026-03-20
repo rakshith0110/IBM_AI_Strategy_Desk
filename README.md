@@ -265,15 +265,13 @@ IBM_AI_Strategy_Desk/
 │
 ├── requirements.txt                # Python dependencies
 ├── .env.example                    # Environment configuration template
+├── .env                            # Environment variables (not in git)
 ├── .gitignore                      # Git ignore rules
 │
 ├── agent_memory.db                 # SQLite database (auto-generated)
 ├── agent_memory.db-shm            # SQLite shared memory
 ├── agent_memory.db-wal            # SQLite write-ahead log
 │
-├── ReactAgent_Guide.md            # Comprehensive ReAct agent guide
-├── ReactAgent_Flowchart.md        # Detailed flowchart documentation
-├── ReactAgent_Simple_Flowchart.md # Simplified flowchart
 ├── sample_questions_agentic_rag.md # Sample questions for testing
 │
 └── README.md                       # This file
@@ -348,24 +346,13 @@ See [sample_questions_agentic_rag.md](sample_questions_agentic_rag.md) for compr
 
 ## 📚 Documentation
 
-### Detailed Guides
+### Available Documentation
 
-- **[ReactAgent_Guide.md](ReactAgent_Guide.md)** - Complete guide to ReAct agent implementation (1000+ lines)
-  - Step-by-step implementation
-  - Code explanations
-  - Working examples
-  - Best practices
-  - Troubleshooting
-
-- **[ReactAgent_Flowchart.md](ReactAgent_Flowchart.md)** - Detailed flowchart documentation
-  - Visual workflow representation
-  - State transitions
-  - Decision points
-
-- **[sample_questions_agentic_rag.md](sample_questions_agentic_rag.md)** - Testing guide
-  - Categorized sample questions
-  - Expected behaviors
-  - Testing strategies
+- **[sample_questions_agentic_rag.md](sample_questions_agentic_rag.md)** - Comprehensive testing guide
+  - Categorized sample questions for all workflows
+  - Expected behaviors and routing decisions
+  - Testing strategies and use cases
+  - Performance benchmarks
 
 ### Key Concepts
 
